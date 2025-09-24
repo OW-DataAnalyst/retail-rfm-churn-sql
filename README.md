@@ -65,8 +65,8 @@ Zamiast tego przeprowadzono analizę wartości transakcji i segmentację przycho
 Najbardziej wartościowe 25% transakcji odpowiada za prawie 70% przychodu.  
 Oznacza to, że firma powinna skoncentrować działania (np. promocje, obsługę premium) na transakcjach wysokiej wartości, bo to one napędzają biznes.
   Kategorie produktów w segmentach wartości:
-- W Q1 (najwyższe transakcje) dominują: Electronics, Home Appliances
-- W Q4 (najniższe transakcje) dominują: Clothing, Sports
+ W Q1 (najwyższe transakcje) dominują: Electronics, Home Appliances
+ W Q4 (najniższe transakcje) dominują: Clothing, Sports
   
 - ARPU: **…**  
 - LTV: **…**  
