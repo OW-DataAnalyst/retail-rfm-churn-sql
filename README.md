@@ -96,8 +96,12 @@ Brak Customer ID uniemożliwia klasyczne liczenie LTV klientów, dlatego zastoso
 ---
 
 ## 💡 Rekomendacje
-- Kampania retencyjna dla segmentów o wysokim churn.  
-- Personalizacja oferty dla top segmentów (R4F4M4).  
-- Ograniczenie rabatów dla produktów niskomarżowych.  
+- Skupić działania marketingowe i upsellingowe na transakcjach wysokiej wartości (top 25%), bo to one napędzają przychód.
+
+- Analizować strukturę koszyka w drugiej połowie roku → dlaczego klienci wybierają tańsze produkty (np. zmiana preferencji, promocje, sezonowość).
+
+- Rozważyć strategie zwiększania wartości koszyka: cross-sell, bundling, oferty premium.
+
+W realnym projekcie z Customer ID można by rozszerzyć analizę o RFM, churn klientów i prawdziwy LTV, co dałoby jeszcze pełniejszy obraz lojalności i retencji.
 
 ---
