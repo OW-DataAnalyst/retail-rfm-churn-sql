@@ -23,6 +23,8 @@ Celem analizy jest:
 - Total Revenue — przychód (Units Sold × Unit Price)  
 - Region — region sprzedaży  
 - Payment Method — metoda płatności  
+ Kolumna `Date` była w formacie TEXT → przekonwertowana na DATE (`sale_date`) przy użyciu STR_TO_DATE.
+ Wszystkie rekordy zostały poprawnie skonwertowane (format: YYYY-MM-DD).
 
 ---
 
