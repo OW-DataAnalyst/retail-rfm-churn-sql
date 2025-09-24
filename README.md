@@ -4,7 +4,8 @@
 ## 🎯 Problem biznesowy
 Firma prowadząca marketplace zauważa spadającą retencję klientów.  
 Celem analizy jest:
-- Segmentacja klientów (RFM scoring), - ⚠️ Uwaga: w dataset’cie brak jest kolumny Customer ID. Każdy wiersz to pojedyncza transakcja (Transaction ID). Dlatego analiza RFM została wykonana na poziomie transakcji, a nie klientów. W praktyce oznacza to, że nie możemy badać lojalności klientów, a jedynie rozkład wartości i częstotliwości
+- Segmentacja klientów (RFM scoring), - ⚠️ ⚠️ Uwaga: dataset nie zawiera kolumny Customer ID. Każdy wiersz to pojedyncza transakcja (Transaction ID). Dlatego klasyczna analiza RFM klientów nie jest możliwa. 
+Zamiast tego przeprowadzono analizę wartości transakcji i segmentację przychodów.
 - Obliczenie wartości klienta (LTV, ARPU),
 - Identyfikacja klientów zagrożonych odejściem (churn),
 - Przygotowanie rekomendacji biznesowych.
