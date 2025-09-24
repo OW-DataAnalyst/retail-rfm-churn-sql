@@ -1,0 +1,21 @@
+value_quartile,"Product Category",transactions_count,total_revenue,category_share_pct
+1,Electronics,25,31207.62,56.13
+1,"Home Appliances",19,14168.50,25.48
+1,Sports,12,8314.65,14.96
+1,Clothing,3,1504.89,2.71
+1,"Beauty Products",1,399.99,0.72
+2,Sports,17,4638.48,29.16
+2,Clothing,17,4255.59,26.75
+2,"Home Appliances",13,3467.80,21.80
+2,Electronics,12,3355.83,21.10
+2,"Beauty Products",1,190.00,1.19
+3,Clothing,17,2209.29,31.88
+3,Sports,10,1313.41,18.95
+3,"Beauty Products",13,1211.96,17.49
+3,"Home Appliances",8,1009.86,14.57
+3,Books,9,765.75,11.05
+3,Electronics,3,418.96,6.05
+4,Books,31,1096.18,51.34
+4,"Beauty Products",25,819.95,38.40
+4,Clothing,3,159.16,7.45
+4,Sports,1,59.98,2.81
