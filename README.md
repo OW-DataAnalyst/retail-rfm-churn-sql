@@ -105,3 +105,19 @@ Brak Customer ID uniemożliwia klasyczne liczenie LTV klientów, dlatego zastoso
 W realnym projekcie z Customer ID można by rozszerzyć analizę o RFM, churn klientów i prawdziwy LTV, co dałoby jeszcze pełniejszy obraz lojalności i retencji.
 
 ---
+
+## 📂 Wyniki (Results)
+
+Wszystkie kluczowe wyniki analiz zapisano w folderze `/results/`:
+
+| Plik CSV | Opis |
+|----------|------|
+| [01.categories.csv](results/01.categories.csv) | Lista i liczność kategorii produktów (quality checks). |
+| [01.duplicates.csv](results/01.duplicates.csv) | Potencjalne duplikaty w danych (quality checks). |
+| [01.payment_methods.csv](results/01.payment_methods.csv) | Rozkład metod płatności (quality checks). |
+| [01.value_ranges.csv](results/01.value_ranges.csv) | Zakresy i statystyki wartości transakcji (quality checks). |
+| [03.transaction_value_segments.csv](results/03.transaction_value_segments.csv) | Podział transakcji na kwartyle wartości i udział przychodów (efekt Pareto). |
+| [04.products_category_analysis.csv](results/04.products_category_analysis.csv) | Dominujące kategorie w każdym kwartylu wartości (udział % w przychodzie kwartylu). |
+| [05.sales_trends.csv](results/05.sales_trends.csv) | Liczba transakcji i przychód per miesiąc (trend w czasie). |
+| [06.ltv_arpu.csv](results/06.ltv_arpu.csv) | ARPU i proxy-LTV (średnia wartość transakcji i przybliżona wartość biznesu). |
+
