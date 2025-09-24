@@ -43,14 +43,6 @@ Celem analizy jest:
 
 ---
 
-## 🔧 Metody analizy
-1. **Analiza wartości transakcji** — podział klientów wg recency, frequency, monetary (NTILE 4).
-2.  **Analiza trendu sprzedazy w czasie**
-3. **LTV i ARPU** — średnia wartość klienta i przychód na użytkownika.   
-5. **Segmentacja churn** — churn rate w poszczególnych segmentach RFM.  
-
----
-
 ## 📈 Wyniki 
 
 - Analiza wartości transakcji:
