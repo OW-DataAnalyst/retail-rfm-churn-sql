@@ -27,16 +27,16 @@ Celem analizy jest:
 ---
 
 ## ✅ Quality checks
-- Liczba rekordów: **[tu wstaw wynik COUNT]**  
-- Duplikaty Transaction ID: **[np. brak / X rekordów]**  
-- Braki (NULL): **[np. 12 w Unit Price, 5 w Date]**  
-- Revenue niespójne: **[np. 23 rekordy]**  
+- Liczba rekordów: **240**  
+- Duplikaty Transaction ID: **brak, wartosci unikalne**  
+- Braki (NULL): **0**  
+- Revenue niespójne: **9 niespójnych rekordów**  
 - Zakresy wartości:  
-  - Units Sold: **min = …, max = …**  
-  - Unit Price: **min = …, max = …**  
-  - Total Revenue: **min = …, max = …**  
-- Kategorie produktów: **[tu wstaw listę DISTINCT Product Category]**  
-- Metody płatności: **[tu wstaw listę DISTINCT Payment Method]**
+  - Units Sold: **min = 1, max = 10**  
+  - Unit Price: **min = 6.5, max = 3899.99**  
+  - Total Revenue: **min = 6.5, max = 3899.99**  
+- Kategorie produktów: **Electronics, Home Appliances, Clothing, Books, Beauty Products, Sports**  
+- Metody płatności: **Credit Card, PayPal, Debit Card**
 
 ---
 
