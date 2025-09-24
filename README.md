@@ -45,9 +45,9 @@ Zamiast tego przeprowadzono analizę wartości transakcji i segmentację przycho
 ---
 
 ## 🔧 Metody analizy
-1. **RFM scoring** — podział klientów wg recency, frequency, monetary (NTILE 4).  
+1. **Analiza wartości transakcji** — podział klientów wg recency, frequency, monetary (NTILE 4).  
 2. **LTV i ARPU** — średnia wartość klienta i przychód na użytkownika.  
-3. **Churn** — definicja: brak zakupu > 60 dni.  
+3. **Analiza trendu sprzedazy w czasie** — definicja: brak zakupu > 60 dni.  
 4. **Segmentacja churn** — churn rate w poszczególnych segmentach RFM.  
 
 ---
