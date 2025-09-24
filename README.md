@@ -4,10 +4,9 @@
 ## 🎯 Problem biznesowy
 Firma prowadząca marketplace zauważa spadającą retencję klientów.  
 Celem analizy jest:
-- Segmentacja klientów (RFM scoring), - ⚠️ ⚠️ Uwaga: dataset nie zawiera kolumny Customer ID. Każdy wiersz to pojedyncza transakcja (Transaction ID). Dlatego klasyczna analiza RFM klientów nie jest możliwa. 
-Zamiast tego przeprowadzono analizę wartości transakcji i segmentację przychodów.
+- Analiza wartości transakcji i segmentacja przychodów.
 - Analiza trendu sprzedazy w czasie,
-- Obliczenie wartości klienta (LTV, ARPU),
+- ARPU i proxy-LTV,
 - Przygotowanie rekomendacji biznesowych.
 
 ---
@@ -53,6 +52,19 @@ Zamiast tego przeprowadzono analizę wartości transakcji i segmentację przycho
 ---
 
 ## 📈 Wyniki 
+
+- Analiza wartości transakcji:
+  Transakcje zostały podzielone na 4 segmenty wg wartości (NTILE 4).
+  Wyniki:
+  - Quartile 1 (najwyższe transakcje): 60 transakcji (25%), generuje 69% przychodu
+  - Quartile 2: 60 transakcji (25%), generuje 19,7% przychodu
+  - Quartile 3: 60 transakcji (25%), generuje 8,6% przychodu
+  - Quartile 4 (najniższe transakcje): 60 transakcji (25%), generuje 2,65% przychodu
+  Wniosek:
+Najbardziej wartościowe 25% transakcji odpowiada za prawie 70% przychodu.  
+Oznacza to, że firma powinna skoncentrować działania (np. promocje, obsługę premium) na transakcjach wysokiej wartości, bo to one napędzają biznes.
+
+
 - Analiza trendu sprzedazy w czasie :
 Liczba transakcji miesięcznie utrzymywała się na podobnym poziomie (27–31).
 Przychód w pierwszych 4 miesiącach (styczeń–kwiecień) wynosił średnio ~12–14,5k.
@@ -66,26 +78,19 @@ klienci wybierają tańsze produkty (np. przesunięcie z Electronics → Books/C
 pojawiły się promocje/obniżki cen,  zmieniła się struktura koszyka zakupowego.
 
   
-- Analiza wartości transakcji:
-  Transakcje zostały podzielone na 4 segmenty wg wartości (NTILE 4).
-  Wyniki:
-  - Quartile 1 (najwyższe transakcje): 60 transakcji (25%), generuje 69% przychodu
-  - Quartile 2: 60 transakcji (25%), generuje 19,7% przychodu
-  - Quartile 3: 60 transakcji (25%), generuje 8,6% przychodu
-  - Quartile 4 (najniższe transakcje): 60 transakcji (25%), generuje 2,65% przychodu
-  Wniosek:
-Najbardziej wartościowe 25% transakcji odpowiada za prawie 70% przychodu.  
-Oznacza to, że firma powinna skoncentrować działania (np. promocje, obsługę premium) na transakcjach wysokiej wartości, bo to one napędzają biznes.
-  
   Kategorie produktów w segmentach wartości:
 
 -W Q1 (najwyższe transakcje) dominują: Electronics, Home Appliances
 
 -W Q4 (najniższe transakcje) dominują: Clothing, Sports
+
   
-- ARPU i proxy-LTV"
+- ARPU i proxy-LTV:
+  
   ARPU (średnia wartość transakcji): ~335 PLN
+
   Średnia liczba transakcji miesięcznie: ~30
+  
   Proxy-LTV: ~10 047 PLN
   
  Wniosek:
