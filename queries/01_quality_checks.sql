@@ -30,14 +30,14 @@ WHERE `Total Revenue` <> (`Units Sold` * `Unit Price`);
 
 -- 5. Zakresy wartości
 SELECT
-  MIN(`Units Sold`) AS min_units,
-  MAX(`Units Sold`) AS max_units,
-  MIN(`Unit Price`) AS min_price,
-  MAX(`Unit Price`) AS max_price,
-  MIN(`Total Revenue`) AS min_revenue,
-  MAX(`Total Revenue`) AS max_revenue
+  MIN(`Units Sold`) 	AS min_units,
+  MAX(`Units Sold`) 	AS max_units,
+  MIN(`Unit Price`) 	AS min_price,
+  MAX(`Unit Price`) 	AS max_price,
+  MIN(`Total Revenue`) 	AS min_revenue,
+  MAX(`Total Revenue`) 	AS max_revenue
 FROM onlinesalesdata;
 
 -- 6. Kategorie i metody płatności
-SELECT DISTINCT `Product Category` FROM onlinesalesdata;
-SELECT DISTINCT `Payment Method` FROM onlinesalesdata;
+SELECT DISTINCT `Product Category` 	FROM onlinesalesdata;
+SELECT DISTINCT `Payment Method` 	FROM onlinesalesdata;
