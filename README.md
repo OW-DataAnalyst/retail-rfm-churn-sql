@@ -68,6 +68,7 @@ Oznacza to, że firma powinna skoncentrować działania (np. promocje, obsługę
   Kategorie produktów w segmentach wartości:
 
 -W Q1 (najwyższe transakcje) dominują: Electronics, Home Appliances
+
 -W Q4 (najniższe transakcje) dominują: Clothing, Sports
   
 - ARPU: **…**  
