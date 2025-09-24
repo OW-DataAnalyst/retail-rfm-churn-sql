@@ -52,9 +52,19 @@ Zamiast tego przeprowadzono analizę wartości transakcji i segmentację przycho
 
 ---
 
-## 📈 Wyniki (do uzupełnienia po analizie)
+## 📈 Wyniki 
 - Churn rate: **…%**  
-- Najbardziej wartościowy segment: **R…F…M…** → **…% klientów, …% przychodu**  
+- Analiza wartości transakcji:
+  Transakcje zostały podzielone na 4 segmenty wg wartości (NTILE 4).
+  Wyniki:
+  - Quartile 1 (najwyższe transakcje): 60 transakcji (25%), generuje 69% przychodu
+  - Quartile 2: 60 transakcji (25%), generuje 19,7% przychodu
+  - Quartile 3: 60 transakcji (25%), generuje 8,6% przychodu
+  - Quartile 4 (najniższe transakcje): 60 transakcji (25%), generuje 2,65% przychodu
+  Wniosek:
+Najbardziej wartościowe 25% transakcji odpowiada za prawie 70% przychodu.  
+Oznacza to, że firma powinna skoncentrować działania (np. promocje, obsługę premium) na transakcjach wysokiej wartości, bo to one napędzają biznes.
+  
 - ARPU: **…**  
 - LTV: **…**  
 
