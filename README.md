@@ -53,7 +53,23 @@ Zamiast tego przeprowadzono analizę wartości transakcji i segmentację przycho
 ---
 
 ## 📈 Wyniki 
-- Churn rate: **…%**  
+- Analiza trendu sprzedazy w czasie :
+Liczba transakcji miesięcznie utrzymywała się na podobnym poziomie (27–31).
+
+Przychód w pierwszych 4 miesiącach (styczeń–kwiecień) wynosił średnio ~12–14,5k.
+
+Od maja nastąpił spadek przychodów do poziomu 6,7–8,4k, mimo podobnej liczby transakcji.
+
+### Wniosek
+Spadek przychodów nie wynika ze spadku liczby transakcji, ale z niższej wartości pojedynczych zakupów.  
+Firma powinna przeanalizować, czy:
+klienci wybierają tańsze produkty (np. przesunięcie z Electronics → Books/Clothing),  
+
+pojawiły się promocje/obniżki cen,  
+
+zmieniła się struktura koszyka zakupowego.
+
+  
 - Analiza wartości transakcji:
   Transakcje zostały podzielone na 4 segmenty wg wartości (NTILE 4).
   Wyniki:
