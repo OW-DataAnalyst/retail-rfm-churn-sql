@@ -83,8 +83,18 @@ Oznacza to, że firma powinna skoncentrować działania (np. promocje, obsługę
 
 -W Q4 (najniższe transakcje) dominują: Clothing, Sports
   
-- ARPU: **…**  
-- LTV: **…**  
+- ARPU i proxy-LTV
+- ARPU (średnia wartość transakcji): ~335 PLN
+- Średnia liczba transakcji miesięcznie: ~30
+- Proxy-LTV: ~10 047 PLN
+- 
+ Wniosek:
+
+Średnia wartość transakcji wynosi ~335 PLN, ale spada w drugiej połowie roku.  
+Proxy-LTV pokazuje, że biznes generuje średnio ~10k PLN wartości miesięcznie.  
+Brak Customer ID uniemożliwia klasyczne liczenie LTV klientów, dlatego zastosowano przybliżenie na poziomie transakcji.
+
+
 
 ---
 
